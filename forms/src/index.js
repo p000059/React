@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import List1 from './components/List1';
+import App from './components/App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <List1 />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
