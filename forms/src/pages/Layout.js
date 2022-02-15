@@ -11,22 +11,22 @@ export default function Layout(){
                 <Link to="/">Home</Link>
             </li>
             <li>
-                <Link to="./pages/Blogs">Blogs</Link>
+                <Link to="./Blogs">Blogs</Link>
             </li>
             <li>
-                <Link to="../pages/Contact.js">Contact</Link>
+                <Link to="./Contact">Contact</Link>
             </li>
             <li>
-                <Link to="../pages/Register.js">Register</Link>
+                <Link to="./Register">Register</Link>
             </li>
             <li>
-                <Link to="../components/Form.js">Form</Link>
+                <Link to="./FormOne">Form One</Link>
             </li>
             <li>
-                <Link to="../components/FormFunction.js"></Link>
+                <Link to="./FormFunction">Form Function</Link>
             </li>
             <li>
-                <Link to="../components/FormFunctionOne.js"></Link>
+                <Link to="./Form">Forms</Link>
             </li>
             </ul>
         </nav>
