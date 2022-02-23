@@ -4,6 +4,7 @@ import PostItem from "./PostItem";
 
 export default function PostList(){
     const [posts, setPosts] = useState([]);
+    const [newPost, setNewPost] = useState('');
 
     useEffect(() => {
         fetch('https://jsonplaceholder.typicode.com/posts').then(response =>{
@@ -16,10 +17,15 @@ export default function PostList(){
     }, []);
 
     return(
-        <>
-            <ul>
-                {posts.map(post => <PostItem key={post.id} post={post} />)} 
-            </ul>
-        </>
+        <div>
+            <div>
+                <input className="form-control" onChange={e => setNewPost(e.target.value) } value={newPost} />
+            </div>
+            <div>
+                <ul>
+                    {posts.map(post => <PostItem key={post.id} post={post} />)} 
+                </ul>
+            </div>
+        </div>
     );
 }

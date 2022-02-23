@@ -1,6 +1,6 @@
-import React from "react";
+import {memo} from "react";
 
-export default function PostItem({post}){
+function PostItem({post}){
 
     return(
         <li>
@@ -9,3 +9,5 @@ export default function PostItem({post}){
         </li>
     );
 }
+
+export default memo(PostItem);
