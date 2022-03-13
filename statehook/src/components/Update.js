@@ -22,9 +22,9 @@ export default function Update(){
     }
 
     return(
-        <div>
+        <div className="text">
             <div>
-                <h2>Função Update</h2>
+                <h2 className="textDestak">Função Update</h2>
             </div>
             <div>
                 <div><h3>Veículo</h3></div>
@@ -34,7 +34,7 @@ export default function Update(){
                 <div>Cor: {car.color}</div>
             </div>
             <div>
-                <button type="button" onClick={updateCar} >Mudar</button>
+                <button className="btn btn-primary" type="button" onClick={updateCar} >Mudar</button>
             </div>
         </div>
     );

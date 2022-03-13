@@ -3,7 +3,7 @@ import { useState } from "react";
 
 export default function Read(){
 
-    const [car, setCar] = useState({
+    const [car] = useState({
 
         brand: "Ford",
         model: "Fiesta",
@@ -12,9 +12,9 @@ export default function Read(){
     });
 
     return(
-        <div>
+        <div className="text">
             <div>
-                <h2>Função Read</h2>
+                <h2 className="textDestak">Função Read</h2>
             </div>
             <div>
                 <div><h3>Veículo</h3></div>
