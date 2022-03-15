@@ -3,7 +3,7 @@ import React from "react";
 function Time(){
 
     return(
-        <div className="time">
+        <div>
             {new Date().toLocaleTimeString()}
         </div>
     );

@@ -12,9 +12,6 @@ function App() {
   return (
     <div className="container">
       <div>
-        <Time />
-      </div>      
-      <div>
         <Header />
       </div>
       <div>
@@ -25,6 +22,9 @@ function App() {
       </div>
       <div>
         <Update />
+      <div>
+        <Time />
+      </div>      
       </div>
     </div>
   );
