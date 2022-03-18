@@ -36,7 +36,7 @@
             yarn start
           </td>
           <td>
-            inicia o projeto criado em React
+            inicia o projeto criado em React http://localhost:3000
           </td>
         </tr>
       </tbody>
